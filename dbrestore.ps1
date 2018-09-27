@@ -1,5 +1,8 @@
 ﻿iisreset /stop
 
+adding a new line in dbrestoration script
+
+
 import-module sqlps
 $dt = Get-Date -Format yyyyMMddHHmmss
 $dbname = 'ca-riv-dnn9-qa-auto-aco-EXE'
